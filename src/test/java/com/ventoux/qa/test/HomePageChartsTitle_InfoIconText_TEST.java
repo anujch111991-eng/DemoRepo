@@ -17,7 +17,7 @@ public class HomePageChartsTitle_InfoIconText_TEST extends testbase {
 	IdentityAppPortal IDappPortal;
 	TocSelectionPage tocselection;
 	WindowHandler WindowHandles;
-	HomePageChartsTitle_InfoIconText ChartTitle_InfoIcon;
+	HomePageChartsTitle_InfoIconText ChartDetails;
 
 	public HomePageChartsTitle_InfoIconText_TEST() {
 		super();
@@ -30,7 +30,7 @@ public class HomePageChartsTitle_InfoIconText_TEST extends testbase {
 		IDappPortal = new IdentityAppPortal();
 		tocselection = new TocSelectionPage();
 		WindowHandles = new WindowHandler();
-		ChartTitle_InfoIcon = new HomePageChartsTitle_InfoIconText();
+		ChartDetails = new HomePageChartsTitle_InfoIconText();
 		IDappPortal = IDlogin.login(prop.getProperty("username"), prop.getProperty("password"));
 		// Refresh tab list AFTER the new tab is opened
 		IDappPortal.ClicktoDevApp();
@@ -51,7 +51,12 @@ public class HomePageChartsTitle_InfoIconText_TEST extends testbase {
 		// tocselection.clicktoclist();
 		// tocselection.clickgwr();
 
-		ChartTitle_InfoIcon.getChartDetails();
+		ChartDetails.InfoIconDetails();
+		ChartDetails.GetChartTitle();
+		ChartDetails.printLegends();
+		ChartDetails.VerifyZoomIn();
+		ChartDetails.ClickResetButton();
+		
 	}
 
 	/*
