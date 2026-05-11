@@ -1,0 +1,5 @@
+DevVentouxAutomation\DevVentoux\AppTest.class
+com\ventoux\qa\test\TocSelectionPageTest.class
+com\ventoux\qa\test\HomePageChartsTitle_InfoIconText_TEST.class
+com\ventoux\qa\test\IdentityAppPortalTest.class
+com\ventoux\qa\test\IdentityLoginTest.class

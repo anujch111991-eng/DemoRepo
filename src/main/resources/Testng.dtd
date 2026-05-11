@@ -1,0 +1,15 @@
+<!ELEMENT suite (listeners?, test)>
+<!ATTLIST suite name CDATA #REQUIRED>
+<!ATTLIST suite verbose NMTOKEN #REQUIRED>
+
+<!ELEMENT listeners (listener+)>
+<!ELEMENT listener EMPTY>
+<!ATTLIST listener class-name CDATA #REQUIRED>
+
+<!ELEMENT test (classes)>
+<!ATTLIST test name CDATA #REQUIRED>
+
+<!ELEMENT classes (class+)>
+
+<!ELEMENT class EMPTY>
+<!ATTLIST class name CDATA #REQUIRED>

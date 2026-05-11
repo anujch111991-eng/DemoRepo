@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "Testng.dtd">
+
+<suite name="Ventoux Dev Application Automation" verbose="1">
+
+    <listeners>
+        <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+    </listeners>
+
+    <test name="Dev Application">
+        <classes>
+            <class name="com.ventoux.qa.test.HomePageChartsTitle_InfoIconText_TEST"/>
+        </classes>
+    </test>
+
+</suite>

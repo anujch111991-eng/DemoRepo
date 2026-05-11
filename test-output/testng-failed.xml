@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Ventoux Dev Application Automation]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Dev Application(failed)">
+    <classes>
+      <class name="com.ventoux.qa.test.HomePageChartsTitle_InfoIconText_TEST">
+        <methods>
+          <include name="printAllChartsInfo"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ventoux.qa.test.HomePageChartsTitle_InfoIconText_TEST -->
+    </classes>
+  </test> <!-- Dev Application(failed) -->
+</suite> <!-- Failed suite [Ventoux Dev Application Automation] -->

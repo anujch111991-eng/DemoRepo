@@ -1,0 +1,14 @@
+com\ventoux\qa\pages\IdentityAppPortal.class
+com\ventoux\qa\util\TabManager.class
+com\ventoux\qa\util\testutil.class
+com\ventoux\qa\util\WaitUtil.class
+com\ventoux\qa\pages\HomePage.class
+com\ventoux\qa\util\WindowHandler.class
+com\ventoux\qa\util\windowhandleutil.class
+com\ventoux\qa\base\testbase.class
+DevVentouxAutomation\DevVentoux\App.class
+com\ventoux\qa\pages\TocSelectionPage.class
+com\qa\ExtentReportListener\ExtentReporterNG.class
+com\ventoux\qa\pages\IdentityLogin.class
+com\ventoux\qa\pages\HomePageChartsTitle_InfoIconText.class
+com\ventoux\qa\pages\VerifyAllPagesDocLink.class
