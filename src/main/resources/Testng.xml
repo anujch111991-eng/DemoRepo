@@ -10,7 +10,10 @@
 
     <test name="Dev Application">
         <classes>
-            <class name="com.ventoux.qa.test.HomePageChartsTitle_InfoIconText_TEST"/>
+        	<class name="com.ventoux.qa.test.HomePageChartsTitle_InfoIconText_TEST"/>
+        	<class name="com.ventoux.qa.test.IdentityAppPortalTest"/>
+        	<class name="com.ventoux.qa.test.IdentityLoginTest"/>
+            <class name="com.ventoux.qa.test.TocSelectionPageTest"/>
         </classes>
     </test>
 
