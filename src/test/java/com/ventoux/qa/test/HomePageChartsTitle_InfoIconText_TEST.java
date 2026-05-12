@@ -1,5 +1,6 @@
 package com.ventoux.qa.test;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -52,8 +53,8 @@ public class HomePageChartsTitle_InfoIconText_TEST extends testbase {
 		// tocselection.clickgwr();
 
 		ChartDetails.InfoIconDetails();
-		String chartTitle = ChartDetails.GetChartTitle();
-		System.out.println("Chart Title: " + chartTitle);
+	    String actualTitle = ChartDetails.GetChartTitle();
+	    Assert.assertEquals(actualTitle, "Service Count");
 		ChartDetails.printLegends();
 		ChartDetails.VerifyZoomIn();
 		ChartDetails.ClickResetButton();

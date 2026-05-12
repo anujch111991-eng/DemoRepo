@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-12T18:26:25 IST" name="Default suite" finished-at="2026-05-12T18:27:30 IST" duration-ms="65281">
+  <suite started-at="2026-05-12T20:38:10 IST" name="Default suite" finished-at="2026-05-12T20:39:27 IST" duration-ms="76433">
     <groups>
     </groups>
-    <test started-at="2026-05-12T18:26:25 IST" name="Default test" finished-at="2026-05-12T18:27:30 IST" duration-ms="65281">
+    <test started-at="2026-05-12T20:38:10 IST" name="Default test" finished-at="2026-05-12T20:39:27 IST" duration-ms="76433">
       <class name="com.ventoux.qa.test.HomePageChartsTitle_InfoIconText_TEST">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ventoux.qa.test.HomePageChartsTitle_InfoIconText_TEST@411f53a0]" started-at="2026-05-12T18:26:25 IST" name="setup" finished-at="2026-05-12T18:27:15 IST" duration-ms="49987" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ventoux.qa.test.HomePageChartsTitle_InfoIconText_TEST@411f53a0]" started-at="2026-05-12T20:38:10 IST" name="setup" finished-at="2026-05-12T20:39:11 IST" duration-ms="60586" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="printAllChartsInfo()[pri:1, instance:com.ventoux.qa.test.HomePageChartsTitle_InfoIconText_TEST@411f53a0]" started-at="2026-05-12T18:27:15 IST" name="printAllChartsInfo" finished-at="2026-05-12T18:27:29 IST" duration-ms="14263" status="PASS">
+        <test-method signature="printAllChartsInfo()[pri:1, instance:com.ventoux.qa.test.HomePageChartsTitle_InfoIconText_TEST@411f53a0]" started-at="2026-05-12T20:39:11 IST" name="printAllChartsInfo" finished-at="2026-05-12T20:39:26 IST" duration-ms="14855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printAllChartsInfo -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ventoux.qa.test.HomePageChartsTitle_InfoIconText_TEST@411f53a0]" started-at="2026-05-12T18:27:29 IST" name="teardown" finished-at="2026-05-12T18:27:30 IST" duration-ms="942" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ventoux.qa.test.HomePageChartsTitle_InfoIconText_TEST@411f53a0]" started-at="2026-05-12T20:39:26 IST" name="teardown" finished-at="2026-05-12T20:39:27 IST" duration-ms="899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

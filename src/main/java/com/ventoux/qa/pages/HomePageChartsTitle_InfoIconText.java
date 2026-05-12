@@ -64,7 +64,9 @@ public class HomePageChartsTitle_InfoIconText extends testbase{
 	//The code for the title of the chart
 	public String GetChartTitle() {
 		WebElement titleElement = testutil.waitForElementToBeVisible(driver, ServiceCount_title, 30);
-        return titleElement.getText();		
+		String chartTitle = titleElement.getText();
+		System.out.println("Chart Title   : " + chartTitle);
+		return chartTitle;		
 	}
 	
     // Get legend items
