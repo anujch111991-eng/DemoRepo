@@ -37,7 +37,7 @@ public class IdentityAppPortalTest extends testbase{
 	
 	@AfterMethod
 	public void teardown() {
-		//driver.quit();
+		driver.quit();
 	}
 
 }

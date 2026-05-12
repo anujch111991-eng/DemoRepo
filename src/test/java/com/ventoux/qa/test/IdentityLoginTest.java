@@ -36,7 +36,7 @@ public class IdentityLoginTest extends testbase{
 	
 	@AfterMethod
 	public void teardown() {
-		//driver.quit();
+		driver.quit();
 	}
 
 }

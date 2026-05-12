@@ -63,7 +63,7 @@ public class TocSelectionPageTest extends testbase{
 	
 	@AfterMethod
 	public void teardown() {
-		//driver.quit();
+		driver.quit();
 	}
 
 	
