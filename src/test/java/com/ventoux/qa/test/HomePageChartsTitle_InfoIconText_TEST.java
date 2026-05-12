@@ -43,15 +43,6 @@ public class HomePageChartsTitle_InfoIconText_TEST extends testbase {
 
 	@Test(priority = 1)
 	public void printAllChartsInfo() {
-		// IDappPortal = IDlogin.login(prop.getProperty("username"),
-		// prop.getProperty("password"));
-		// Refresh tab list AFTER the new tab is opened
-		// IDappPortal.ClicktoDevApp();
-		// WindowHandler.waitForAndSwitchToNewWindow(driver, 2, 10000);
-		// Perform action
-		// tocselection.clicktoclist();
-		// tocselection.clickgwr();
-
 		ChartDetails.InfoIconDetails();
 	    String actualTitle = ChartDetails.GetChartTitle();
 	    Assert.assertEquals(actualTitle, "Service Count");
