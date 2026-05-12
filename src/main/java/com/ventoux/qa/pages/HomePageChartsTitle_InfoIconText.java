@@ -27,6 +27,8 @@ public class HomePageChartsTitle_InfoIconText extends testbase{
 	By Icon_HoverOver = By.xpath("//div[@role='tooltip']//div[@class='tooltip-inner']");
 	
 	By ZoomInOut = By.xpath("//*[name()='g'][@class='recharts-layer recharts-bar-rectangle'][46]//*[name()='path'][@name='Services with PA']");
+
+	By opt_serviceInfoIcon = By.xpath("//h5[text()='Optimised Services - Batch']/ancestor::div[@class='landingPage-dynamic-charts']//*[name()='svg'][@class='info-button-icon icon-color']");
 	
 	public HomePageChartsTitle_InfoIconText() {
 		PageFactory.initElements(driver, this);
@@ -88,6 +90,25 @@ public class HomePageChartsTitle_InfoIconText extends testbase{
     	ResetZoom.click();
     }
 
+	//*********************Verify Optimised Services - Batch************************	
+	public void InfoIconDetails_Opt_Services() {		
+		List<WebElement> infoicon = testutil.waitForElementsToBeVisible(driver, opt_serviceInfoIcon, 30);
+    	// Use WaitUtil to wait for the element to be visible
+		for(WebElement e: infoicon)
+		{
+			actions.moveToElement(e).perform();
+			List<WebElement> text1List = testutil.waitForElementsToBeVisible(driver, Icon_HoverOver, 30);
+		    if (!text1List.isEmpty()) {
+		        String text1 = text1List.get(0).getText();  // Get text from the first matching element
+		        System.out.println(text1);
+		    } else {
+		        System.out.println("No text found for TextXpath1.");
+		    } 		    
+		 // Move mouse away from the info icon to make the tooltip disappear
+	        WebElement bodyElement = driver.findElement(ServiceCount_title); // You can use a different element if needed
+	        actions.moveToElement(bodyElement).perform();		    
+		}		
+    }
 		/*
 	    List<WebElement> charts = driver.findElements(Charts_Cards);  
 	    //System.out.println("Total charts: " + charts.size());
