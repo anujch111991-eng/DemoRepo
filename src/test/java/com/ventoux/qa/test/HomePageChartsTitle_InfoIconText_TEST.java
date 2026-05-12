@@ -56,6 +56,7 @@ public class HomePageChartsTitle_InfoIconText_TEST extends testbase {
 		ChartDetails.printLegends();
 		ChartDetails.VerifyZoomIn();
 		ChartDetails.ClickResetButton();
+		ChartDetails.InfoIconDetails_Opt_Services();
 		
 	}
 
