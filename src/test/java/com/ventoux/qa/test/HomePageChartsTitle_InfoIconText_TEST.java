@@ -52,7 +52,8 @@ public class HomePageChartsTitle_InfoIconText_TEST extends testbase {
 		// tocselection.clickgwr();
 
 		ChartDetails.InfoIconDetails();
-		ChartDetails.GetChartTitle();
+		String chartTitle = ChartDetails.GetChartTitle();
+		System.out.println("Chart Title: " + chartTitle);
 		ChartDetails.printLegends();
 		ChartDetails.VerifyZoomIn();
 		ChartDetails.ClickResetButton();

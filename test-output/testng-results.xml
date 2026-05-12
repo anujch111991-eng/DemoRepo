@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-12T16:56:48 IST" name="Default suite" finished-at="2026-05-12T16:57:34 IST" duration-ms="46125">
+  <suite started-at="2026-05-12T18:26:25 IST" name="Default suite" finished-at="2026-05-12T18:27:30 IST" duration-ms="65281">
     <groups>
     </groups>
-    <test started-at="2026-05-12T16:56:48 IST" name="Default test" finished-at="2026-05-12T16:57:34 IST" duration-ms="46125">
-      <class name="com.ventoux.qa.test.IdentityAppPortalTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ventoux.qa.test.IdentityAppPortalTest@411f53a0]" started-at="2026-05-12T16:56:48 IST" name="setup" finished-at="2026-05-12T16:56:58 IST" duration-ms="10594" status="PASS">
+    <test started-at="2026-05-12T18:26:25 IST" name="Default test" finished-at="2026-05-12T18:27:30 IST" duration-ms="65281">
+      <class name="com.ventoux.qa.test.HomePageChartsTitle_InfoIconText_TEST">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ventoux.qa.test.HomePageChartsTitle_InfoIconText_TEST@411f53a0]" started-at="2026-05-12T18:26:25 IST" name="setup" finished-at="2026-05-12T18:27:15 IST" duration-ms="49987" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="IdentityLogin()[pri:0, instance:com.ventoux.qa.test.IdentityAppPortalTest@411f53a0]" started-at="2026-05-12T16:56:58 IST" name="IdentityLogin" finished-at="2026-05-12T16:57:34 IST" duration-ms="35403" status="PASS">
+        <test-method signature="printAllChartsInfo()[pri:1, instance:com.ventoux.qa.test.HomePageChartsTitle_InfoIconText_TEST@411f53a0]" started-at="2026-05-12T18:27:15 IST" name="printAllChartsInfo" finished-at="2026-05-12T18:27:29 IST" duration-ms="14263" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- IdentityLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ventoux.qa.test.IdentityAppPortalTest@411f53a0]" started-at="2026-05-12T16:57:34 IST" name="teardown" finished-at="2026-05-12T16:57:34 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- printAllChartsInfo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ventoux.qa.test.HomePageChartsTitle_InfoIconText_TEST@411f53a0]" started-at="2026-05-12T18:27:29 IST" name="teardown" finished-at="2026-05-12T18:27:30 IST" duration-ms="942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.ventoux.qa.test.IdentityAppPortalTest -->
+      </class> <!-- com.ventoux.qa.test.HomePageChartsTitle_InfoIconText_TEST -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

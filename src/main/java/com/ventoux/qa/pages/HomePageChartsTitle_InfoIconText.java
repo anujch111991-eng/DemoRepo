@@ -20,8 +20,7 @@ public class HomePageChartsTitle_InfoIconText extends testbase{
 	@FindBy(xpath = "//h5[normalize-space()='Service Count']/ancestor::div[@class=\"landingPage-dynamic-charts\"]//*[name()='svg'][@class=\"zoom-icon icon-color\"]")
 	WebElement ResetZoom;
 	
-	By ChartLegends = By.xpath("//h5[normalize-space()='Service Count']/ancestor::div[@class='landingPage-dynamic-charts']"
-			+ "//li//span[@class='recharts-legend-item-text']");
+	By ChartLegends = By.xpath("//h5[normalize-space()='Service Count']/ancestor::div[@class='landingPage-dynamic-charts']//div[@class='recharts-legend-wrapper']//span");
 	
 	By ServiceCount_title = By.xpath("//h5[text()='Service Count']");
 	
